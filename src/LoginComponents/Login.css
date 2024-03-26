@@ -1,0 +1,112 @@
+.divForm {
+  background-color: rgb(49, 54, 63);
+  border-radius: 20px;
+  margin: 10px;
+  place-items: center;
+}
+.divFormSecondaria {
+  background-color: rgb(49, 54, 63);
+  border-radius: 20px;
+  margin: 10px;
+  place-items: center;
+  padding-bottom: 25px;
+}
+
+input {
+  box-shadow: 1px 1px rgb(12, 12, 12);
+  width: 250px;
+  height: 40px;
+
+  border-radius: 5px;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  margin: 10px;
+  text-align: center;
+  outline: none;
+}
+input:hover {
+  background-color: #535bf2;
+}
+
+label {
+  padding-right: 10px;
+}
+
+.buttonLogin {
+  box-shadow: 1px 1px rgb(12, 12, 12);
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 10px 50px;
+  border-radius: 5px;
+  border: none;
+  width: 250px;
+}
+button:hover {
+  background-color: #535bf2;
+}
+label {
+  color: #535bf2;
+  font-weight: bold;
+}
+img {
+  border-radius: 50%;
+  place-items: center;
+  display: inline;
+  width: 50%;
+}
+.imgTools {
+  border-radius: 25px;
+  place-items: center;
+  display: inline;
+  width: 100px;
+  height: 100px;
+}
+.erroreMostratoNellaDiv {
+  color: red;
+}
+
+select {
+  box-shadow: 1px 1px rgb(12, 12, 12);
+  width: 250px;
+  height: 40px;
+  text-align: center;
+
+  border-radius: 5px;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  margin: 10px;
+}
+
+select :hover {
+  background-color: #76abae;
+}
+
+h2 {
+  padding-top: 50px;
+  size: 25px;
+}
+.InfoCredenziali {
+  color: #535bf2;
+  font-size: medium;
+}
+.spanTitoloPagina {
+  font-family: sans-serif;
+  font-size: 2.5rem;
+  padding: 2rem;
+  font-weight: 900;
+  color: #535bf2;
+  text-shadow: 0px 0px 9px #4b4b4b;
+}
+.linkProfiloLinkedin {
+  color: white;
+}
+
+option {
+  background-color: #535bf2;
+}
